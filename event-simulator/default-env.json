@@ -1,0 +1,34 @@
+{
+  "PORT": 9001,
+  "VCAP_SERVICES": {
+    "rabbitmq": [
+      {
+        "credentials": {
+          "uri": "amqp://guest:guest@localhost:5672"
+        },
+        "label": "rabbitmq",
+        "name": "myrabbitmq",
+        "tags": [
+          "rabbitmq",
+          "amqp"
+        ]
+      }
+    ]
+  },
+  "SAP_XBEM_BINDINGS": {
+    "inputs": {
+    },
+    "outputs": {
+      "myOutA" : {
+        "service": "myrabbitmq",
+        "address": "topic:erp/event",
+        "reliable": false
+      },
+      "myOutB" : {
+        "service": "myrabbitmq",
+        "address": "topic:erp/event",
+        "reliable": false
+      }
+    }
+  }
+}
