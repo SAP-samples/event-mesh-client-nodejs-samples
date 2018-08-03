@@ -1,0 +1,16 @@
+* text eol=lf
+
+*.md text
+*.js text
+
+*.pdf binary
+*.pptx binary
+*.jar binary
+*.png binary
+*.jpg binary
+*.PNG binary
+*.JPG binary
+*.so binary
+*.dll binary
+*.node binary
+*.exe binary

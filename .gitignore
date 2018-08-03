@@ -1,0 +1,9 @@
+_*
+build/
+node_modules/
+_gen/
+gen/
+.metadata
+.idea
+npm-debug.log
+package-lock.json

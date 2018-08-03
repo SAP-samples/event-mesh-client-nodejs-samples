@@ -1,0 +1,39 @@
+#---
+#applications:
+#- name: msg-event-simulator
+#  host: [prefix]-msg-event-simulator
+#  domain: cfapps.sap.hana.ondemand.com
+#  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+#  memory: 256M
+#  command: node main.js
+#  services:
+#    - myrabbitmq
+---
+    applications:
+    - name: msg-event-simulator
+      buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+      command: node main.js
+      memory: 1024M
+      services:
+        - myrabbitmq
+      health-check-type: none
+      env:
+        SAP_JWT_TRUST_ACL: "[{\"clientid\":\"*\",\"identityzone\":\"*\"}]"
+        SAP_XBEM_BINDINGS: >
+          {
+            "inputs": {},
+            "outputs": {
+              "myOutA" : {
+                "service": "myrabbitmq",
+                "address": "topic:erp/event",
+                "reliable": false
+              },
+              "myOutB" : {
+                "service": "myrabbitmq",
+                "address": "topic:erp/event",
+                "reliable": false
+              }
+            }
+          }
+      path: .
+
