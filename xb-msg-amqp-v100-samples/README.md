@@ -16,10 +16,8 @@ This section includes the _Prerequisite_, describe _how to install_ and _how to 
       1. Start producer via `npm run-script producer` (default) or via `node src/producer.js ../config/cf-sample-config.js` (with given config file)
       1. Start consumer via `npm run-script consumer` (default) or via `node src/consumer.js ../config/cf-sample-config.js` (with given config file)
 
-## License
-Copyright (c) 2017 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the _SAP SAMPLE CODE LICENSE AGREEMENT, v1.0-071618_ except as noted otherwise in the [LICENSE file](./LICENSE.txt).## Support
-This project is _'as-is'_ with no support, no changes being made. +
+## Support
+This project is _'as-is'_ with no support, no changes being made.  
 You are welcome to make changes to improve it but we are not available for questions or support of any kind.
 
 ## License
