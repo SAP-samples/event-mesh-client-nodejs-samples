@@ -983,6 +983,10 @@ Others:
 * [Introduction to AMQP 1.0](https://de.slideshare.net/ClemensVasters/amqp-10-introduction)
 * [Node: Backpressuring in Streams](https://nodejs.org/en/docs/guides/backpressuring-in-streams/)
 
+## Support
+This project is _'as-is'_ with no support, no changes being made. +
+You are welcome to make changes to improve it but we are not available for questions or support of any kind.
+
 ## License
 Copyright (c) 2017 SAP SE or an SAP affiliate company. All rights reserved.
 This file is licensed under the _SAP SAMPLE CODE LICENSE AGREEMENT, v1.0-071618_ except as noted otherwise in the [LICENSE file](../LICENSE.txt).
