@@ -1,7 +1,13 @@
 # Messaging Client Node.js - Samples for SAP Cloud Platform Enterprise Messaging
+SAP Cloud Platform Enterprise Messaging provides a cloud-based messaging framework for the development of decoupled and resilient services and integration flows (using SAP Cloud Integration).  
+
+It is based on asynchronous communication principles.  
+Direct integration with SAP S/4HANA Business Event Handling allows efficient development of innovative and scaling extensions.
+
+For more details of **SAP Cloud Platform Enterprise Messaging** take a look at the [Enterprise Messaging - Messaging Clients landing page](https://github.com/pages/SAP/enterprise-messaging-samples/).
 
 ## Description
-Samples of how to use the Messaging Client (Node.js) for messaging via SAP Cloud Platform Enterprise Messaging in the Cloud Foundry environment.
+This repository provides samples of how to use the Messaging Client (Node.js) for messaging via SAP Cloud Platform Enterprise Messaging in the Cloud Foundry environment.
 
 ## Contents
 
