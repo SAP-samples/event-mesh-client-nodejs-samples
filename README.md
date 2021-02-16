@@ -1,5 +1,7 @@
 # Messaging Client Node.js - Samples for SAP Cloud Platform Enterprise Messaging
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/enterprise-messaging-client-nodejs-samples)](https://api.reuse.software/info/github.com/SAP-samples/enterprise-messaging-client-nodejs-samples)
+
 ## Description
 SAP Cloud Platform Enterprise Messaging provides a cloud-based messaging framework for the development of decoupled and resilient services and integration flows (using SAP Cloud Integration) to support asynchronous communication principles.
 Direct integration with SAP S/4HANA Business Event Handling allows efficient development of innovative and scaling extensions.
@@ -37,4 +39,4 @@ You are welcome to make changes to improve it but we are not available for quest
 
 ## License
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.  
-This file is licensed under the _SAP SAMPLE CODE LICENSE AGREEMENT, v1.0-071618_ except as noted otherwise in the [LICENSE file](./LICENSE.txt).
+This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](./LICENSES/Apache-2.0.txt).
