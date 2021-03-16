@@ -797,7 +797,7 @@ This allows to:
 * forward messages with variable target address over one single link.
 
 Please note, the specification defines only an [address string](http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-messaging-v1.0-os.html#type-address-string).
-The address syntax depends on the connected service. For example, RabbitMQ, SolaceVMR or SAP Enterprise Messaging support different address expressions.
+The address syntax depends on the connected service. For example, RabbitMQ, SolaceVMR or SAP Event Mesh support different address expressions.
 And even more unexpected, RabbitMQ uses `properties.subject` instead of `properties.to`.
 However, package @sap/xb-msg-env would enable a unified processing here, if really needed.
 
