@@ -1,15 +1,15 @@
 # Sample application for Messaging Client Node.js
 
 ## Description
-Sample application (plain Node.js) of how to use the _Enterprise Messaging Client_ to send and receive messages via _SAP Cloud Platform Enterprise Messaging_.
+Sample application (plain Node.js) of how to use the _Event Mesh Client_ to send and receive messages via _SAP Event Mesh_.
 
 ## How To run
 This section includes the _Prerequisite_, describe _how to install_ and _how to configure_ this basic sample.
 
-  1. Prerequisite: Enable Enterprise Messaging on _SAP CP_ 
-      1. Create required _Enterprise Messaging_ service via e.g. `cf cs enterprise-messaging dev enterprise-messaging-service-instance-name -c '{"emname":"sample_application"}'`
-      1. Create service key via e.g. `cf csk enterprise-messaging-service-instance-name key-name -c '{"emname":"sample_application"}'`
-      1. Get key via e.g. `cf service-key enterprise-messaging-service-instance-name key-name`
+  1. Prerequisite: Enable Event Mesh on _SAP BTP_ 
+      1. Create required _Event Mesh_ service via e.g. `cf cs enterprise-messaging dev event-mesh-service-instance-name -c '{"emname":"sample_application"}'`
+      1. Create service key via e.g. `cf csk event-mesh-service-instance-name key-name -c '{"emname":"sample_application"}'`
+      1. Get key via e.g. `cf service-key event-mesh-service-instance-name key-name`
       1. Update the `config/cf-sample-config.js` with information of the _service key_
   1. Install required dependencies via `npm install` 
   1. Run sample application
