@@ -32,10 +32,10 @@ To download and install the samples just clone this repository via `git clone`
 For details on how to configure and run the samples please take a look into the README in the corresponding samples directory.
 
 
-## Support
+## Contributing
 This project is _'as-is'_ with no support, no changes being made.  
 You are welcome to make changes to improve it but we are not available for questions or support of any kind.
 
-## License
+## Licensing
 Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved.  
 This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](./LICENSES/Apache-2.0.txt).
