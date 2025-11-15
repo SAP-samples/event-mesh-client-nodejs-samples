@@ -18,7 +18,7 @@ This repository provides samples of how to use the Messaging Client (Node.js) fo
 
 |Sample/Content|Scenario|Scenario Description|
 |---|---|---|
-|[xb-msg-amqp-v100-doc](xb-msg-amqp-v100-doc)|Node.js Messaging Client documentation (includes basic sample)|Documentation and related samples which shows hot this library provides a messaging client as well as classes to realize a server for `AMQP 1.0`|
+|[xb-msg-amqp-v100-doc](xb-msg-amqp-v100-doc)|Node.js Messaging Client documentation (includes basic sample)|Documentation and related samples which shows how this library provides a messaging client as well as classes to realize a server for `AMQP 1.0`|
 |[xb-msg-amqp-v100-samples](xb-msg-amqp-v100-samples)|Basic Messaging Sample which runs locally|This sample demonstrates how each application (plain Node.js, non SAP BTP) can use the _Event Mesh Client_ to send and receive messages via _SAP Event Mesh_. Therefore the messaging sample consists of a `consumer.js` and a `producer.js` which provides the corresponding functionality for send/receive (and the `config/cf-sample-config.js` to configure the sample)|
 |[event-simulator](event-simulator)|Event Simulator for SAP BTP deployment|The Event Simulator application demonstrates a scenario where events are emitted and send as messages via SAP Event Mesh which were consumed and further processed (i.e. logged via console). Therefore the messaging sample consists of a `main.js` which provides the corresponding functionality and start the simulation (and a `config.js` to configure the sample)|
 
