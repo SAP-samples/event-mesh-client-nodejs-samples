@@ -3,36 +3,40 @@ Provides a protocol implementation for [AMQP 1.0](http://www.amqp.org/specificat
 
 ## Table of contents
 
-* [Prerequisites](#prerequisites)
-* [Install](#install)
-* [Overview](#overview)
-* [Getting started](#getting-started)
-* [API](#api)
+* [@sap/xb-msg-amqp-v100](#sapxb-msg-amqp-v100)
+  * [Table of contents](#table-of-contents)
+  * [Prerequisites](#prerequisites)
+  * [Install](#install)
+  * [Overview](#overview)
+  * [Getting started](#getting-started)
+  * [API](#api)
     * [Client Options](#client-options)
     * [Server Options](#server-options)
     * [Endpoints](#endpoints)
-        * [Dynamic Endpoints](#dynamic-endpoints)
-        * [Common Behavior](#common-endpoint-behavior)
-        * [Session](#session)
-        * [Sender](#sender)
-        * [Outgoing Stream](#outgoing-stream)
-        * [Delivery Tags](#delivery-tags)
-        * [Receiver](#receiver)
-        * [Incoming Stream](#incoming-stream)
+      * [Dynamic Endpoints](#dynamic-endpoints)
+      * [Common Endpoint Behavior](#common-endpoint-behavior)
+      * [Session](#session)
+      * [Sender](#sender)
+      * [Outgoing Stream](#outgoing-stream)
+      * [Delivery Tags](#delivery-tags)
+      * [Receiver](#receiver)
+      * [Incoming Stream](#incoming-stream)
     * [Message Delivery](#message-delivery)
-        * [Streams](#message-streams)
-        * [Piped Streams](#piped-message-streams)
-        * [Message Source and Target](#message-source-and-target)
-        * [Convert Source and Target](#convert-source-and-target)
-        * [Variable Message Routing](#variable-message-routing)
-        * [Quality of Service](#quality-of-service)
-        * [Mixed Quality of Service](#mixed-quality-of-service)
-        * [Flow Control](#flow-control)
-        * [Payload](#message-payload)
-        * [Payload and AMQP values](#message-payload-and-amqp-values)
-        * [Payload and Websocket Data Masking](#message-payload-and-websocket-data-masking)
-* [Constraints](#constraints)
-* [Further Links](#further-links)
+      * [Message Streams](#message-streams)
+      * [Piped Message Streams](#piped-message-streams)
+      * [Message Source and Target](#message-source-and-target)
+      * [Convert Source and Target](#convert-source-and-target)
+      * [Variable Message Routing](#variable-message-routing)
+      * [Quality of Service](#quality-of-service)
+      * [Mixed Quality of Service](#mixed-quality-of-service)
+      * [Flow Control](#flow-control)
+      * [Message Payload](#message-payload)
+      * [Message Payload and AMQP values](#message-payload-and-amqp-values)
+      * [Message Payload and WebSocket Data Masking](#message-payload-and-websocket-data-masking)
+  * [Constraints](#constraints)
+  * [Further Links](#further-links)
+  * [Support](#support)
+  * [License](#license)
 
 ## Prerequisites
 
@@ -78,8 +82,9 @@ All client examples shall run with provided defaults immediately if e.g. RabbitM
 Alternatively, the producer may run in combination with the gateway example.
 
 The library has been tested successfully in combination with:
-* RabbitMQ, version `3.6.6`,
-* Solace VMR, as of version `8.5.0.1008`,
+
+* RabbitMQ, version `4.3.1`,
+* Solace VMR, as of version `10.25.0.208`,
 * AMQPNetLite, version `2.1.1`,
 * Apache Qpid Proton-J, version `0.23.0`
 

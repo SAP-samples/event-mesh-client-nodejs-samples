@@ -8,10 +8,10 @@
     "sample"
   ],
   "engines": {
-    "node": ">=6.9.1"
+    "node": ">=22.0.0"
   },
   "dependencies": {
-    "@sap/xb-msg-amqp-v100": "^0.3.5"
+    "@sap/xb-msg-amqp-v100": "^0.9.58"
   },
   "scripts": {
     "consumer": "node src/consumer.js ../config/cf-sample-config.js",
