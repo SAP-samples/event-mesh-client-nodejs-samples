@@ -7,12 +7,12 @@
     "application"
   ],
   "engines": {
-    "node": ">=6.9.1"
+    "node": ">=22.0.0"
   },
   "dependencies": {
-    "@sap/xsenv": "1.2.8",
-    "@sap/xb-msg": ">=0.2.4",
-    "@sap/xb-msg-env": ">=0.2.1"
+    "@sap/xsenv": "^6.2.1",
+    "@sap/xb-msg": "^0.9.12",
+    "@sap/xb-msg-env": "^0.9.8"
   },
   "scripts": {
     "start": "node main.js"
