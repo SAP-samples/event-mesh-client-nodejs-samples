@@ -1,6 +1,10 @@
 # Messaging Client Node.js - Samples for SAP Event Mesh
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/event-mesh-client-nodejs-samples)](https://api.reuse.software/info/github.com/SAP-samples/event-mesh-client-nodejs-samples)
 
+## Security Notice
+
+WARNING: The REST endpoints in these samples have *no authentication or authorization*. They are intentionally minimal to focus on the messaging concepts. *Do not deploy these sample applications to a publicly reachable route without first adding authentication*. Any caller that can reach the deployed application URL can publish or consume messages using the application's bound Event Mesh credentials.
+
 ## Note
 The SAP Cloud Platform Enterprise Messaging service has been renamed to SAP Event Mesh - find more information in this [blog article](https://blogs.sap.com/2021/02/22/please-welcome-sap-event-mesh-new-name-for-sap-cloud-platform-enterprise-messaging)
 
